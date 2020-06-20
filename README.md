@@ -1,8 +1,4 @@
-# Dillinger
-
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+# InGen
 
 Attention la fonctionnalité de Mot de passe oublié ne fonctionneras pas si vous n'avez pas parametrer et telecharger les fichiers sendmail et php.ini. De plus les images ne sont pas presentes sur ce git vous pouvez trouver les images sur ce lien WeTransfer
 
