@@ -1,6 +1,6 @@
 <?php
-$_SESSION['card'] = array();
 session_start();
+$_SESSION['card'] = array();
 require ('helpers.php');
 if(isset($_GET['p'])):
     switch ($_GET['p']):
