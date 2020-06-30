@@ -61,7 +61,8 @@ if (isset($_GET['action'])){
                    $_SESSION['card'] = null;
                    $_SESSION['deliveryInformation'] = null;
                    $_SESSION['deliveryPhone'] = null;
-                    header('Location:index.php?card=address');
+                   $_SESSION['order'] = true;
+                    header('Location:index.php');
                     exit;
                 }
                 else{
@@ -103,6 +104,7 @@ if (isset($_GET['action'])){
                     $_SESSION['card'] = null;
                     $_SESSION['deliveryInformation'] = null;
                     $_SESSION['deliveryPhone'] = null;
+                    $_SESSION['order'] = true;
                     header('Location:index.php');
                     exit;
                 }

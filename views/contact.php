@@ -27,17 +27,17 @@
         </div>
         <div class="userInformation">
             <h2>Nous Contacter</h2>
-            <div class="information">Besoin d’un renseignement ? Merci de remplir le formulaire ci-dessous ou de nous contacter par mail à l’adresse contact@budo-fight.com. Nous vous répondrons dans les plus brefs délais. Notre service client se tient également à votre disposition du lundi au vendredi de 9h à 12h et de 14h à 18h au 02 32 86 05 40.</div>
+            <div class="information">Besoin d’un renseignement ? Merci de remplir le formulaire ci-dessous ou de nous contacter par mail à l’adresse contact@ingen.com. Nous vous répondrons dans les plus brefs délais. Notre service client se tient également à votre disposition du lundi au vendredi de 9h à 12h et de 14h à 18h au 06 52 20 16 69.</div>
             <div class="informationPratique">
                 <div><h4>Information Pratique</h4></div>
                 <div>
-                    122, allée Louis Blériot
-                    ZAC Aéroport Boos/Rouen
-                    76520 Boos - France
+                    2 avenue du stade de coubertin
+                    Boulogne Billancourt / Haut de Seine
+                    92100 - France
                 </div>
                 <div>
-                    Tél : +33 02 32 86 05 40
-                    E-mail : contact@budo-fight.com
+                    Tél : +33 6 52 20 16 69
+                    E-mail : contact@ingen.com
                 </div>
             </div>
         </div>

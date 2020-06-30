@@ -66,7 +66,7 @@
                                             <input type="text" id="address" name="address" value="<?php if (isset($_GET['action']) && isset($_GET['address_id']) && isset($_POST['address'])): echo $_POST['address']; endif;  if (isset($addressModify)): echo $addressModify['address']; endif;?>" placeholder="Votre Adresse" required>
                                         </div>
                                         <div>
-                                            <span>Adresse(complément)*</span>
+                                            <span>Adresse(complément)</span>
                                             <input type="text" id="addressPlus" name="address_plus" value="<?php if (isset($_GET['action']) && isset($_GET['address_id']) && isset($_POST['address_plus'])): echo $_POST['address_plus']; endif;  if (isset($addressModify)): echo $addressModify['address_plus']; endif;?>" placeholder="Complément d'adresse">
                                         </div>
                                     </div>
@@ -120,7 +120,7 @@
                                             <input type="text" name="address" placeholder="Votre Adresse" >
                                         </div>
                                         <div>
-                                            <span>Adresse(complément)*</span>
+                                            <span>Adresse(complément)</span>
                                             <input type="text" name="addressPlus" placeholder="Complément d'adresse">
                                         </div>
                                     </div>

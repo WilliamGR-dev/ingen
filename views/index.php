@@ -341,11 +341,24 @@
             </div>
         </div>
     </section>
+    <dialog id="infoAddOrder" class="infoAddProduct">
+        <div class="infoCardConfirm">
+            <h1>Commande confirmé</h1>
+        </div>
+    </dialog>
     <?php include './partials/footer.php';?>
 </main>
 </body>
 <footer>
     <?php include './partials/footer_assets.php';?>
     <script src="./assets/js/index.js"></script>
+    <?php if (isset($_SESSION['order'])):if($_SESSION['order']==true):?>
+    <script>
+        let infoAddOrder = document.getElementById('infoAddOrder');
+        infoAddOrder.showModal();
+        document.addEventListener('click', ({target}) => target === infoAddOrder && infoAddOrder.close());
+    </script>
+    <?php $_SESSION['order'] = false; ?>
+    <?php endif;endif; ?>
 </footer>
 </html>

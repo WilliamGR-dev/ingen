@@ -4,7 +4,6 @@ require_once 'models/Product.php';
 require_once 'models/Color.php';
 
 $selectedCategory = false;
-
 if ($_SESSION['card'] != null){
     $_SESSION['card'] = updateCard($_SESSION['card']);
 }

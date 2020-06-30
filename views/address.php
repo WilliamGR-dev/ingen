@@ -201,6 +201,10 @@
                 </div>
             </div>
         </div>
+    <?php else: ?>
+        <div class="addressInfo" style="text-align: center; text-transform: none">
+            Ajoutez votre premiere adresse <a href="index.php?p=profilAddress" style="color: #FF6801">ICI</a>
+        </div>
     <?php endif; ?>
     <div class="sumbitCard"><form action="index.php?card=address&action=confirm" method="post"><input id="addressDelivery" name="addressDelivery" type="hidden" value=""><input id="addressBill" name="addressBill" type="hidden" value=""><button type="submit" class="confirmCard">Suivant</button></form></div>
 </div>
